@@ -9,7 +9,7 @@
 
 #include "esp_at.h"
 #include "esp_at_init.h"
-
+#define BLINK_GPIO CONFIG_BLINK_GPIO
 void app_main(void)
 {
     esp_at_main_preprocess();
